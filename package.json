@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/sulu-one/sulu-file-system-view-prompt-here/issues"
   },
-  "homepage": "https://github.com/sulu-one/sulu-file-system-view-prompt-here#readme"
+  "homepage": "https://github.com/sulu-one/sulu-file-system-view-prompt-here#readme",
+  "dependencies": {
+    "node-prompt-here": "^1.0.1"
+  }
 }
