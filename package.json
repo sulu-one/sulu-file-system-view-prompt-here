@@ -1,15 +1,15 @@
 {
   "suluPackage": {
-    "hotkeys" : [
+    "hotkeys": [
       {
-        "key" : "ctrl+enter" , 
-        "function" : "openShell"
+        "key": "ctrl+enter",
+        "function": "openShell"
       }
     ]
-  }, 
+  },
   "name": "sulu-file-system-view-prompt-here",
   "description": "Open terminal aka commandline shell at current direcory.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "scripts": {
     "bump": "npm version patch && git push && git push --tags && npm publish",
