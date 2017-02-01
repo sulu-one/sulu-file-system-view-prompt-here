@@ -1,5 +1,12 @@
 {
-  "suluPackage": true,
+  "suluPackage": {
+    "hotkeys" : [
+      {
+        "key" : "ctrl+enter" , 
+        "function" : "openShell"
+      }
+    ]
+  }, 
   "name": "sulu-file-system-view-prompt-here",
   "description": "Open terminal aka commandline shell at current direcory.",
   "version": "1.0.3",

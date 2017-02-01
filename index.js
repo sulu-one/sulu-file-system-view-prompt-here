@@ -12,7 +12,6 @@ Command.prototype.openShell = function openShell() {
 
 var Plugin = function  (client) {
 	this.command = new Command();
-	client.app.registerHotKey("ctrl+enter", this.command.openShell);
 };
 
 module.exports = Plugin;
